@@ -1,6 +1,10 @@
 /**
  * Omg! 🤯
  */
-export function isNumber(something) {
+function isNumber(something) {
   return typeof something === 'number';
+}
+
+module.exports = {
+  isNumber,
 }
