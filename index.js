@@ -7,8 +7,7 @@ function isString(something) {
 }
 
 function isBoolean(something) {
-  // Let's fix it later 🙈🙈🙈
-  return typeof something === false;
+  return typeof something === 'boolean';
 }
 
 module.exports = {
