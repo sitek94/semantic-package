@@ -4,10 +4,12 @@
   "version": "0.0.0-development",
   "main": "index.js",
   "scripts": {
+    "commit": "git-cz",
     "test": "jest",
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "jest": "^27.3.1",
     "semantic-release": "^18.0.0"
   },
@@ -16,5 +18,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/sitek94/semantic-package.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
