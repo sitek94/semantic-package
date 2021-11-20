@@ -1,10 +1,11 @@
 {
   "name": "semantic-package",
   "description": "Useless package, but with semantic versioning!",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "semantic-release": "^18.0.0"
@@ -13,6 +14,6 @@
   "author": "Maciek Sitkowski <msitkowski94@gmail.com> (https://github.com/sitek94)",
   "repository": {
     "type": "git",
-    "url": "git@github.com:sitek94/semantic-package.git"
+    "url": "https://github.com/sitek94/semantic-package.git"
   }
 }
