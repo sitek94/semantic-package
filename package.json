@@ -1,5 +1,5 @@
 {
-  "name": "semantic-package",
+  "name": "@sitek94/semantic-package",
   "description": "Useless package, but with semantic versioning!",
   "version": "0.0.0-development",
   "main": "index.js",
@@ -18,6 +18,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/sitek94/semantic-package.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "config": {
     "commitizen": {
