@@ -1,6 +1,6 @@
 # Semantic Package
 
-> ⚠️ Built for learning purposes only! ⚠️
+> ⚠️&nbsp; Built for learning purposes only! ⚠️
 
 * don't use this package in production
 * neither in development
