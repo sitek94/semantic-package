@@ -1,7 +1,7 @@
 {
   "name": "@sitek94/semantic-package",
   "description": "Useless package, but with semantic versioning!",
-  "version": "0.0.0-development",
+  "version": "0.0.0",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
