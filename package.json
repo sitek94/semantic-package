@@ -19,6 +19,9 @@
     "type": "git",
     "url": "https://github.com/sitek94/semantic-package.git"
   },
+  "files": [
+    "index.js"
+  ],
   "publishConfig": {
     "access": "public"
   },
